@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-  <head>
+	<head>
 		<title>Duane Pitre - HTML5 and jQuery Example</title>
 		<meta name="description" content="In addition to my professional experience, I bring with me a strong work ethic as well as a desire to solve problems and learn new skills. I also possess excellent interpersonal skills, strong organizational skills and enjoy collaborating with others. I pride myself on producing organized code, in order to make programs run as efficiently as possible."> 
 		<meta name="keywords" content="Duane Pitre, Pitre, motivated, self-directed, teamwork, problem solving, open mind, positive, outgoing, friendly">
@@ -14,281 +14,276 @@
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="../js/hide-header.js"></script>
 		<script src="../js/lightbox.min.js"></script>
-  </head>
-<body>
-    <!--[if lt IE 7]>
-        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-<!-- ==================== start content ==================== -->
-<!-- HEADER INCLUDE START -->
-<?php include("../inc/header.inc") ; ?>
-<!-- HEADER INCLUDE END -->
-<div class="banner group"></div>
-<div class="main-wrapper">
-	<main class="media group">
-			<!-- AUDIO -->		
-			<article class="audio">
-				<h2>Audio</h2>
-				<aside class="audiomodule group">
-					<div class="aplayer group">
-						<img src="../img/covers/bayou-electric_no-border.jpg" alt="Bayou Electric" title="Bayou Electric" />
-						<iframe width="20px" height="20" scrolling="no" frameborder="no" 
-						src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/177586269&amp;color=
-						739995&amp;inverse=true&amp;auto_play=false&amp;show_user=false"></iframe>
+	</head>
+	<body>
+		<!-- HEADER INCLUDE START -->
+		<?php include("../inc/header.inc") ; ?>
+		<!-- HEADER INCLUDE END -->
+		<div class="banner group"></div>
+		<div class="main-wrapper">
+			<main class="media group">
+				<!-- AUDIO -->		
+				<article class="audio">
+					<h2>Audio</h2>
+					<aside class="audiomodule group">
+						<div class="aplayer group">
+							<img src="../img/covers/bayou-electric_no-border.jpg" alt="Bayou Electric" title="Bayou Electric" />
+							<iframe width="20px" height="20" scrolling="no" frameborder="no" 
+							src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/177586269&amp;color=
+							739995&amp;inverse=true&amp;auto_play=false&amp;show_user=false"></iframe>
+						</div>
+						<p class="title">Bayou Electric</p>
+						<p >Album excerpt of <i>Bayou Electric</i>. (2015, CD/LP, Important)</p>
+					</aside>
+					<aside class="audiomodule group">
+						<div class="aplayer group">
+							<img src="../img/covers/invertedtorch.jpg" alt="Inverted Torch" title="Inverted Torch" />
+							<iframe width="20px" height="20" scrolling="no" frameborder="no" 
+							src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/176763970&amp;color=
+							739995&amp;inverse=true&amp;auto_play=false&amp;show_user=false"></iframe>
+						</div>
+						<p class="title">Inverted Torch</p>
+						<p >Album sampler of <i>Inverted Torch</i>, Pitre's collaboration w/ Jon Mueller. (2014, LP, Type)</p>
+					</aside>
+					<aside class="audiomodule group">
+						<div class="aplayer group">
+							<img src="../img/covers/dpca.jpg" alt="The Seeker and The Healer" title="The Seeker and The Healer" />
+							<iframe width="20px" height="20px" scrolling="no" frameborder="no" 
+							src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/176774291&amp;color=
+							739995&amp;inverse=false&amp;auto_play=false&amp;show_user=false"></iframe>
+						</div>
+						<p class="title">The Seeker and The Healer</p>
+						<p>Album sampler of <i>The Seeker and The Healer</i>, Pitre's collaboration w/ Cory Allen. (2014, LP, Students of Decay)</p>
+					</aside>
+					<aside class="audiomodule group">
+						<div class="aplayer group">
+							<img src="../img/covers/feel-free-oto.jpg" alt="Feel Free: Live at Cafe OTO" title="Feel Free: Live at Cafe OTO" />
+							<iframe width="20px" height="20px" scrolling="no" frameborder="no"
+							src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/144990005&amp;color=
+							739995&amp;inverse=false&amp;auto_play=false&amp;show_user=false"></iframe>
+						</div>
+						<p class="title">Feel Free: Live at Cafe OTO</p>
+						<p>Excerpt of sextet performance of <i>Feel Free</i> at Cafe OTO on 06/14/12 (2013, LP, Important)</p>
+					</aside>
+					<aside class="audiomodule group">
+						<div class="aplayer group">							
+							<img src="../img/covers/bridges.jpg" alt="Bridges" title="Bridges" />
+							<iframe width="20px" height="20" scrolling="no" frameborder="no"
+							src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/81216971&amp;color=
+							739995&amp;inverse=false&amp;auto_play=false&amp;show_user=false"></iframe>
+						</div>
+						<p class="title">Bridges</p>
+						<p>Excerpt from the first (of two) compositions on the album <i>Bridges</i> (2013, CD/LP, Important)</p>
+					</aside>
+					<aside class="audiomodule group">
+						<div class="aplayer group">	
+							<img src="../img/covers/pitreleh.jpg" alt="PITRELEH" title="PITRELEH" />
+							<iframe width="20px" height="20" scrolling="no" frameborder="no"
+							src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/144989080&amp;color=
+							739995&amp;inverse=false&amp;auto_play=false&amp;show_user=false"></iframe>
+						</div>
+						<p class="title">PITRELEH</p>
+						<p>Excerpt from S/T LP (Important Records). PITRELEH is Duane Pitre + ELEH. (2013, LP, Important)</p>
+					</aside>
+					<aside class="audiomodule group">
+						<div class="aplayer group">						
+							<img src="../img/covers/feel-free.jpg" alt="Feel Free" title="Feel Free" />
+							<iframe width="20px" height="20" scrolling="no" frameborder="no"
+							src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/37371396&amp;color=
+							739995&amp;inverse=false&amp;auto_play=false&amp;show_user=false"></iframe>
+						</div>
+						<p class="title">Feel Free</p>
+						<p><i>Feel Free</i> album preview w/ excerpt from each of the piece's five sections. (2012, CD/LP, Important).</p>
+					</aside>
+					<aside class="audiomodule group">
+						<div class="aplayer group">						
+							<img src="../img/covers/klankson2.jpg" alt="Klankson2" title="Klankson2" />
+							<iframe width="20px" height="20" scrolling="no" frameborder="no"
+							src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/60425267&amp;color=
+							739995&amp;inverse=false&amp;auto_play=false&amp;show_user=false"></iframe>
+						</div>
+						<p class="title">Feel Free (solo live)</p>							
+						<p>Live recording of a solo performance/installation of <i>Feel Free</i> at Les Ateliers Claus's
+						KLANKSON II Festival. (06/16/12 Brussels)</p>
+					</aside>
+					<aside class="audiomodule group">
+						<div class="aplayer group">							
+							<img src="../img/covers/monolithic-youth-square.gif" alt="Monolithic Youth" title="Monolithic Youth" />
+							<iframe width="20px" height="20" scrolling="no" frameborder="no"
+							src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/53516259&amp;color=
+							739995&amp;inverse=false&amp;auto_play=false&amp;show_user=false"></iframe>
+						</div>
+						<p class="title">Monolithic Youth</p>
+						<p>Excerpt of the title track from <i>Monolithic Youth</i> (2012, CS, Sonic Meditations).</p>
+					</aside>
+					<aside class="audiomodule group">
+						<div class="aplayer group">							
+							<img src="../img/covers/elehsplit-1stpressing.gif" alt="ELEH/Duane Pitre split" title="ELEH/Duane Pitre split" />
+							<iframe width="20px" height="20" scrolling="no" frameborder="no"
+							src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/38848941&amp;color=
+							739995&amp;inverse=false&amp;auto_play=false&amp;show_user=false"></iframe>
+						</div>
+						<p class="title">Feel Free Installtion</p>							
+						<p>Preview from split LP w/ Eleh (Important ). <em>Feel Free</em> is a composition by  Pitre that
+						currently has three possible manifestations: solo, ensemble, and sound installation.</p>
+					</aside>
+					<aside class="audiomodule group">
+						<div class="aplayer group">						
+							<img src="../img/covers/origin.jpg" alt="Origin" title="Origin" />
+							<iframe width="20px" height="20" scrolling="no" frameborder="no"
+							src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2453997&amp;color=
+							739995&amp;inverse=false&amp;auto_play=false&amp;show_user=false"></iframe>
+						</div>
+						<p class="title">Origin</p>							
+						<p>Long-form piece in five movements. All musical material is comprised of an ensemble of bowed,
+						unconventionally strung electric guitars (utilizing multi-unisons), tuned in just intonation.</p>
+					</aside>
+					<aside class="audiomodule group">
+						<div class="aplayer group">							
+							<img src="../img/covers/ed09-roulette.jpg" alt="ED09" title="ED09" />
+							<iframe width="20px" height="20" scrolling="no" frameborder="no"
+							src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2703938&amp;color=
+							739995&amp;inverse=false&amp;auto_play=false&amp;show_user=false"></iframe>
+						</div>
+						<p class="title">ED09</p>							
+						<p><i>ED09</i> is an evolving, long-tone composition. Live recording from NYC's Roulette on
+						12/4/08. Features 21 string/wind performers w/ by bowed guitar, played by the composer.</p>
+					</aside>
+					<aside class="audiomodule group">
+						<div class="aplayer group">							
+							<img src="../img/covers/spectra.jpg" alt="Music For Microtonal Guitar And Mallets" title="Music For Microtonal Guitar And Mallets" />
+							<iframe width="20px" height="20" scrolling="no" frameborder="no"
+							src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/37476914&amp;color=
+							739995&amp;inverse=false&amp;auto_play=false&amp;show_user=false"></iframe>
+						</div>
+						<p class="title">Music For Microtonal Guitar And Mallets</p>							
+						<p>Recorded in early 2007. This edited version appears as a track on the <i>Spectra - Guitar in the
+						21st Century</i> compilation (2009, CD, Quiet Design)</p>
+					</aside>
+					<aside class="audiomodule group">
+						<div class="aplayer group">							
+							<img src="../img/covers/carpenter-issue.jpg" alt="Extended Studies for The Carpenter" title="Extended Studies for The Carpenter" />
+							<iframe width="20px" height="20" scrolling="no" frameborder="no"
+							src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/19907118&amp;color=
+							739995&amp;inverse=false&amp;auto_play=false&amp;show_user=false"></iframe>
+						</div>
+						<p class="title">Extended Studies for The Carpenter</p>	
+						<p>For justly tuned sine tones. Written while Pitre was Artist-In-Residence at ISSUE Project Room in spring
+						'09 for their 15-channel overhead speaker system.</p>
+					</aside>
+				</article>
+				<!-- VIDEO -->	
+				<article class="videos">
+					<h2>Video</h2>
+					<div class="videomodule-wrapper group">
+						<div class="vplayer-wrapper">
+							<iframe name="vifrm" src="http://player.vimeo.com/video/78922170?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" 
+							width="634" height="357" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						</div>
+						<ul class="group">
+							<li class="initial-video"><a href="http://player.vimeo.com/video/78922170?title=0&amp;byline=0&amp;portrait=0" width="634"
+							height="356" target="vifrm"> <img class="video-thumb" src="../img/video/video-thumb-marseille.jpg" alt="Live in Marseille (3:45)"
+							title="Live in Marseille (3:45)" width="107" height="82" /></a>
+							<p class="video-caption">Live Marseille</p>
+							</li> 
+							<li><a href="http://player.vimeo.com/video/79501991?title=0&amp;byline=0&amp;portrait=0" width="634" height="356"
+							target="vifrm"> <img class="video-thumb" src="../img/video/video-thumb-barcelona.jpg" alt="Live in Barcelona (4:33)" title="Live in Barcelona (4:33)" width="107" height="82" /></a>
+							<p class="video-caption">Live Barcelona</p>
+							</li> 
+							<li><a href="http://player.vimeo.com/video/49605066?title=0&amp;byline=0&amp;portrait=0" target="vifrm"> 
+							<img class="video-thumb" src="../img/video/video-thumb-ffoto.jpg" alt="&quot;Feel Free&quot; Live @ Cafe OTO by Shaun Crook (7:46)"
+							title="&quot;Feel Free&quot; Live @ Cafe OTO by Shaun Crook (7:46)" width="107" height="82" /></a>
+							<p class="video-caption">Live London</p>
+							</li> 
+							<li><a href="http://player.vimeo.com/video/38760934?title=0&amp;byline=0&amp;portrait=0" target="vifrm"> 
+							<img class="video-thumb" src="../img/video/video-thumb-ff.jpg" alt="&quot;Feel Free&quot; Video by Greg Hunt (5:03)" title="&quot;Feel Free&quot; Video by Greg Hunt (5:03)" width="107" height="82" /></a>
+							<p class="video-caption">Feel Free</p>
+							</li> 
+							<li><a href="http://player.vimeo.com/video/64347319?title=0&amp;byline=0&amp;portrait=0" target="vifrm"> 
+							<img class="video-thumb" src="../img/video/video-thumb-bridges-teaser.jpg" alt="&quot;Bridges&quot; (teaser trailer) by Bradford Willingham (1:34)" title="&quot;Bridges&quot; (teaser trailer) by Bradford WIllingham (1:34)" width="107"
+							height="82" /></a>
+							<p class="video-caption">Bridges</p>
+							</li> 
+							<li><a href="http://player.vimeo.com/video/4168530?title=0&amp;byline=0&amp;portrait=0"
+							target="vifrm"> <img class="video-thumb" src="../img/video/video-thumb-roulette.jpg" alt="&quot;ED09&quot; @ Roulette (5:43)"
+							title="&quot;ED09&quot; @ Roulette (5:43)" width="107" height="82" /></a>
+							<p class="video-caption">ED09: Live NYC</p>
+							</li> 
+							<li><a href="http://player.vimeo.com/video/13958535?title=0&amp;byline=0&amp;portrait=0" target="vifrm"> 
+							<img class="video-thumb" src="../img/video/video-thumb-mt1.jpg" alt="Solo @ Monkey Town 1 w/ visuals by Greg Hunt (8:45)" title="Solo @ Monkey Town 1 w/ visuals by Greg Hunt (8:45)" width="107" height="82" /></a>
+							<p class="video-caption">Live NYC #1</p>
+							</li> 
+							<li><a href="http://player.vimeo.com/video/13959089?title=0&amp;byline=0&amp;portrait=0" target="vifrm"> 
+							<img class="video-thumb" src="../img/video/video-thumb-mt2.jpg" alt="Solo @ Monkey Town 2 w/ visuals by Greg Hunt (8:45)" title="Solo @ Monkey Town 2 w/ visuals by Greg Hunt (8:45)" width="107" height="82" /></a>
+							<p class="video-caption">Live NYC #2</p>
+							</li>
+						</ul>
 					</div>
-					<p class="title">Bayou Electric</p>
-					<p >Album excerpt of <i>Bayou Electric</i>. (2015, CD/LP, Important)</p>
-				</aside>
-				<aside class="audiomodule group">
-					<div class="aplayer group">
-						<img src="../img/covers/invertedtorch.jpg" alt="Inverted Torch" title="Inverted Torch" />
-						<iframe width="20px" height="20" scrolling="no" frameborder="no" 
-						src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/176763970&amp;color=
-						739995&amp;inverse=true&amp;auto_play=false&amp;show_user=false"></iframe>
-					</div>
-					<p class="title">Inverted Torch</p>
-					<p >Album sampler of <i>Inverted Torch</i>, Pitre's collaboration w/ Jon Mueller. (2014, LP, Type)</p>
-				</aside>
-				<aside class="audiomodule group">
-					<div class="aplayer group">
-						<img src="../img/covers/dpca.jpg" alt="The Seeker and The Healer" title="The Seeker and The Healer" />
-						<iframe width="20px" height="20px" scrolling="no" frameborder="no" 
-						src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/176774291&amp;color=
-						739995&amp;inverse=false&amp;auto_play=false&amp;show_user=false"></iframe>
-					</div>
-					<p class="title">The Seeker and The Healer</p>
-					<p>Album sampler of <i>The Seeker and The Healer</i>, Pitre's collaboration w/ Cory Allen. (2014, LP, Students of Decay)</p>
-				</aside>
-				<aside class="audiomodule group">
-					<div class="aplayer group">
-						<img src="../img/covers/feel-free-oto.jpg" alt="Feel Free: Live at Cafe OTO" title="Feel Free: Live at Cafe OTO" />
-						<iframe width="20px" height="20px" scrolling="no" frameborder="no"
-						src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/144990005&amp;color=
-						739995&amp;inverse=false&amp;auto_play=false&amp;show_user=false"></iframe>
-					</div>
-					<p class="title">Feel Free: Live at Cafe OTO</p>
-					<p>Excerpt of sextet performance of <i>Feel Free</i> at Cafe OTO on 06/14/12 (2013, LP, Important)</p>
-				</aside>
-				<aside class="audiomodule group">
-					<div class="aplayer group">							
-						<img src="../img/covers/bridges.jpg" alt="Bridges" title="Bridges" />
-						<iframe width="20px" height="20" scrolling="no" frameborder="no"
-						src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/81216971&amp;color=
-						739995&amp;inverse=false&amp;auto_play=false&amp;show_user=false"></iframe>
-					</div>
-					<p class="title">Bridges</p>
-					<p>Excerpt from the first (of two) compositions on the album <i>Bridges</i> (2013, CD/LP, Important)</p>
-				</aside>
-				<aside class="audiomodule group">
-					<div class="aplayer group">	
-						<img src="../img/covers/pitreleh.jpg" alt="PITRELEH" title="PITRELEH" />
-						<iframe width="20px" height="20" scrolling="no" frameborder="no"
-						src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/144989080&amp;color=
-						739995&amp;inverse=false&amp;auto_play=false&amp;show_user=false"></iframe>
-					</div>
-					<p class="title">PITRELEH</p>
-					<p>Excerpt from S/T LP (Important Records). PITRELEH is Duane Pitre + ELEH. (2013, LP, Important)</p>
-				</aside>
-				<aside class="audiomodule group">
-					<div class="aplayer group">						
-						<img src="../img/covers/feel-free.jpg" alt="Feel Free" title="Feel Free" />
-						<iframe width="20px" height="20" scrolling="no" frameborder="no"
-						src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/37371396&amp;color=
-						739995&amp;inverse=false&amp;auto_play=false&amp;show_user=false"></iframe>
-					</div>
-					<p class="title">Feel Free</p>
-					<p><i>Feel Free</i> album preview w/ excerpt from each of the piece's five sections. (2012, CD/LP, Important).</p>
-				</aside>
-				<aside class="audiomodule group">
-					<div class="aplayer group">						
-						<img src="../img/covers/klankson2.jpg" alt="Klankson2" title="Klankson2" />
-						<iframe width="20px" height="20" scrolling="no" frameborder="no"
-						src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/60425267&amp;color=
-						739995&amp;inverse=false&amp;auto_play=false&amp;show_user=false"></iframe>
-					</div>
-					<p class="title">Feel Free (solo live)</p>							
-					<p>Live recording of a solo performance/installation of <i>Feel Free</i> at Les Ateliers Claus's
-					KLANKSON II Festival. (06/16/12 Brussels)</p>
-				</aside>
-				<aside class="audiomodule group">
-					<div class="aplayer group">							
-						<img src="../img/covers/monolithic-youth-square.gif" alt="Monolithic Youth" title="Monolithic Youth" />
-						<iframe width="20px" height="20" scrolling="no" frameborder="no"
-						src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/53516259&amp;color=
-						739995&amp;inverse=false&amp;auto_play=false&amp;show_user=false"></iframe>
-					</div>
-					<p class="title">Monolithic Youth</p>
-					<p>Excerpt of the title track from <i>Monolithic Youth</i> (2012, CS, Sonic Meditations).</p>
-				</aside>
-				<aside class="audiomodule group">
-					<div class="aplayer group">							
-						<img src="../img/covers/elehsplit-1stpressing.gif" alt="ELEH/Duane Pitre split" title="ELEH/Duane Pitre split" />
-						<iframe width="20px" height="20" scrolling="no" frameborder="no"
-						src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/38848941&amp;color=
-						739995&amp;inverse=false&amp;auto_play=false&amp;show_user=false"></iframe>
-					</div>
-					<p class="title">Feel Free Installtion</p>							
-					<p>Preview from split LP w/ Eleh (Important ). <em>Feel Free</em> is a composition by  Pitre that
-					currently has three possible manifestations: solo, ensemble, and sound installation.</p>
-				</aside>
-				<aside class="audiomodule group">
-					<div class="aplayer group">						
-						<img src="../img/covers/origin.jpg" alt="Origin" title="Origin" />
-						<iframe width="20px" height="20" scrolling="no" frameborder="no"
-						src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2453997&amp;color=
-						739995&amp;inverse=false&amp;auto_play=false&amp;show_user=false"></iframe>
-					</div>
-					<p class="title">Origin</p>							
-					<p>Long-form piece in five movements. All musical material is comprised of an ensemble of bowed,
-					unconventionally strung electric guitars (utilizing multi-unisons), tuned in just intonation.</p>
-				</aside>
-				<aside class="audiomodule group">
-					<div class="aplayer group">							
-						<img src="../img/covers/ed09-roulette.jpg" alt="ED09" title="ED09" />
-						<iframe width="20px" height="20" scrolling="no" frameborder="no"
-						src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2703938&amp;color=
-						739995&amp;inverse=false&amp;auto_play=false&amp;show_user=false"></iframe>
-					</div>
-					<p class="title">ED09</p>							
-					<p><i>ED09</i> is an evolving, long-tone composition. Live recording from NYC's Roulette on
-					12/4/08. Features 21 string/wind performers w/ by bowed guitar, played by the composer.</p>
-				</aside>
-				<aside class="audiomodule group">
-					<div class="aplayer group">							
-						<img src="../img/covers/spectra.jpg" alt="Music For Microtonal Guitar And Mallets" title="Music For Microtonal Guitar And Mallets" />
-						<iframe width="20px" height="20" scrolling="no" frameborder="no"
-						src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/37476914&amp;color=
-						739995&amp;inverse=false&amp;auto_play=false&amp;show_user=false"></iframe>
-					</div>
-					<p class="title">Music For Microtonal Guitar And Mallets</p>							
-					<p>Recorded in early 2007. This edited version appears as a track on the <i>Spectra - Guitar in the
-					21st Century</i> compilation (2009, CD, Quiet Design)</p>
-				</aside>
-				<aside class="audiomodule group">
-					<div class="aplayer group">							
-						<img src="../img/covers/carpenter-issue.jpg" alt="Extended Studies for The Carpenter" title="Extended Studies for The Carpenter" />
-						<iframe width="20px" height="20" scrolling="no" frameborder="no"
-						src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/19907118&amp;color=
-						739995&amp;inverse=false&amp;auto_play=false&amp;show_user=false"></iframe>
-					</div>
-					<p class="title">Extended Studies for The Carpenter</p>	
-					<p>For justly tuned sine tones. Written while Pitre was Artist-In-Residence at ISSUE Project Room in spring
-					'09 for their 15-channel overhead speaker system.</p>
-				</aside>
-		</article>
-		<!-- VIDEO -->	
-		<article class="videos">
-			<h2>Video</h2>
-				<div class="videomodule-wrapper group">
-					<div class="vplayer-wrapper">
-						<iframe name="vifrm" src="http://player.vimeo.com/video/78922170?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" 
-						width="634" height="357" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-					</div>
-					<ul class="group">
-						<li class="initial-video"><a href="http://player.vimeo.com/video/78922170?title=0&amp;byline=0&amp;portrait=0" width="634"
-						height="356" target="vifrm"> <img class="video-thumb" src="../img/video/video-thumb-marseille.jpg" alt="Live in Marseille (3:45)"
-						title="Live in Marseille (3:45)" width="107" height="82" /></a>
-						<p class="video-caption">Live Marseille</p>
-						</li> 
-						<li><a href="http://player.vimeo.com/video/79501991?title=0&amp;byline=0&amp;portrait=0" width="634" height="356"
-						target="vifrm"> <img class="video-thumb" src="../img/video/video-thumb-barcelona.jpg" alt="Live in Barcelona (4:33)" title="Live in Barcelona (4:33)" width="107" height="82" /></a>
-						<p class="video-caption">Live Barcelona</p>
-						</li> 
-						<li><a href="http://player.vimeo.com/video/49605066?title=0&amp;byline=0&amp;portrait=0" target="vifrm"> 
-						<img class="video-thumb" src="../img/video/video-thumb-ffoto.jpg" alt="&quot;Feel Free&quot; Live @ Cafe OTO by Shaun Crook (7:46)"
-						title="&quot;Feel Free&quot; Live @ Cafe OTO by Shaun Crook (7:46)" width="107" height="82" /></a>
-						<p class="video-caption">Live London</p>
-						</li> 
-						<li><a href="http://player.vimeo.com/video/38760934?title=0&amp;byline=0&amp;portrait=0" target="vifrm"> 
-						<img class="video-thumb" src="../img/video/video-thumb-ff.jpg" alt="&quot;Feel Free&quot; Video by Greg Hunt (5:03)" title="&quot;Feel Free&quot; Video by Greg Hunt (5:03)" width="107" height="82" /></a>
-						<p class="video-caption">Feel Free</p>
-						</li> 
-						<li><a href="http://player.vimeo.com/video/64347319?title=0&amp;byline=0&amp;portrait=0" target="vifrm"> 
-						<img class="video-thumb" src="../img/video/video-thumb-bridges-teaser.jpg" alt="&quot;Bridges&quot; (teaser trailer) by Bradford Willingham (1:34)" title="&quot;Bridges&quot; (teaser trailer) by Bradford WIllingham (1:34)" width="107"
-						height="82" /></a>
-						<p class="video-caption">Bridges</p>
-						</li> 
-						<li><a href="http://player.vimeo.com/video/4168530?title=0&amp;byline=0&amp;portrait=0"
-						target="vifrm"> <img class="video-thumb" src="../img/video/video-thumb-roulette.jpg" alt="&quot;ED09&quot; @ Roulette (5:43)"
-						title="&quot;ED09&quot; @ Roulette (5:43)" width="107" height="82" /></a>
-						<p class="video-caption">ED09: Live NYC</p>
-						</li> 
-						<li><a href="http://player.vimeo.com/video/13958535?title=0&amp;byline=0&amp;portrait=0" target="vifrm"> 
-						<img class="video-thumb" src="../img/video/video-thumb-mt1.jpg" alt="Solo @ Monkey Town 1 w/ visuals by Greg Hunt (8:45)" title="Solo @ Monkey Town 1 w/ visuals by Greg Hunt (8:45)" width="107" height="82" /></a>
-						<p class="video-caption">Live NYC #1</p>
-						</li> 
-						<li><a href="http://player.vimeo.com/video/13959089?title=0&amp;byline=0&amp;portrait=0" target="vifrm"> 
-						<img class="video-thumb" src="../img/video/video-thumb-mt2.jpg" alt="Solo @ Monkey Town 2 w/ visuals by Greg Hunt (8:45)" title="Solo @ Monkey Town 2 w/ visuals by Greg Hunt (8:45)" width="107" height="82" /></a>
-						<p class="video-caption">Live NYC #2</p>
-						</li>
-					</ul>
-				</div>
-		</article>
-		<!-- PHOTOS -->	
-		<article class="photos">
-			<h2>Photos</h2>
-			<ul>
-				<li><a href="../img/photos/20.jpg" data-lightbox="photos" data-title="Solo performance | Milan, IT @ O' | 11/9/13 | photo: Michela Di Savino">
-				<img src="../img/photos/thumbs/photo-thumb-20.jpg" /></a></li>
-				<li><a href="../img/photos/19.jpg" data-lightbox="photos" data-title="Solo performance | Atlanta, GA @ The Goat Farm Arts Center | 08/18/13 | photo: Ron Harris">
-				<img src="../img/photos/thumbs/photo-thumb-19.jpg" /></a></li>
-				<li><a href="../img/photos/18.jpg" data-lightbox="photos" data-title="Solo performance | London @ Cafe OTO | 10/17/13 | photo: Daniel Gosling">
-				<img src="../img/photos/thumbs/photo-thumb-18.jpg" /></a></li>
-				<li><a href="../img/photos/17.jpg" data-lightbox="photos" data-title="Solo performance | Bologna, IT @ Raum | 11/8/13 | photo: Luca Ghedini">
-				<img src="../img/photos/thumbs/photo-thumb-17.jpg" /></a></li>
-				<li><a href="../img/photos/16.jpg" data-lightbox="photos" data-title="<em>Feel Free</em> perfrormance | London, UK @ Cafe OTO | 06/14/12 | photo: Shaun Crook">
-				<img src="../img/photos/thumbs/photo-thumb-16.jpg" /></a></li>
-				<li><a href="../img/photos/15.jpg" data-lightbox="photos" data-title="Solo performance | Lyon, FR @ Sonic | 06/23/12 | photo: Hazam Modoff">
-				<img src="../img/photos/thumbs/photo-thumb-15.jpg" /></a></li>
-				<li><a href="../img/photos/14.jpg" data-lightbox="photos" data-title="Duo w/ Agathe Max | Lyon, FR @ Sonic | 06/23/12 | photo: Lauren Cecil">
-				<img src="../img/photos/thumbs/photo-thumb-14.jpg" /></a></li>
-				<li><a href="../img/photos/13.jpg" data-lightbox="photos" data-title="<em>ED09</em> performance | NYC @ The Stone | 02/26/09 | photo: Lauren Cecil">
-				<img src="../img/photos/thumbs/photo-thumb-13.jpg" /></a></li>
-				<li><a href="../img/photos/12.jpg" data-lightbox="photos" data-title="Second residency show @ ISSUE Project Room (NYC), w/ James Ilgenfritz on contrabass | 03/25/09 | photo: Lauren Cecil">
-				<img src="../img/photos/thumbs/photo-thumb-12.jpg" /></a></li>
-				<li><a href="../img/photos/11.jpg" data-lightbox="photos" data-title="Solo performance | NYC @ Monkey Town | 09/18/09 | photo: Lauren Cecil">
-				<img src="../img/photos/thumbs/photo-thumb-11.jpg" /></a></li>
-				<li><a href="../img/photos/10.jpg" data-lightbox="photos" data-title="<em>ED09</em> rehearsal | London, UK @ St. Giles-in-the-Fields Church | 10/25/08 | photo: Lauren Cecil">
-				<img src="../img/photos/thumbs/photo-thumb-10.jpg" /></a></li>
-				<li><a href="../img/photos/9.jpg" data-lightbox="photos" data-title="<em>ED09</em> rehearsal | Paris, FR @ Les Voutes | 10/21/08 | photo: Lauren Cecil">
-				<img src="../img/photos/thumbs/photo-thumb-9.jpg" /></a></li>
-				<li><a href="../img/photos/8.jpg" data-lightbox="photos" data-title="Solo performance | NYC @ Monkey Town | 09/18/09 | photo: Lauren Cecil">
-				<img src="../img/photos/thumbs/photo-thumb-8.jpg" /></a></li>
-				<li><a href="../img/photos/7.jpg" data-lightbox="photos" data-title="Bowed Harmonic Guitar Ensemble performing <em>Origin</em> | NYC @ Phillips de Pury | 09/18/08 | photo: Samuel Burns">
-				<img src="../img/photos/thumbs/photo-thumb-7.jpg" /></a></li>
-				<li><a href="../img/photos/6.jpg" data-lightbox="photos" data-title="Bowed Harmonic Guitar Ensemble performing <em>Origin</em> | NYC @ Phillips de Pury | 09/18/08 | photo: Samuel Burns">
-				<img src="../img/photos/thumbs/photo-thumb-6.jpg" /></a></li>
-				<li><a href="../img/photos/4.jpg" data-lightbox="photos" data-title="Second residency show @ ISSUE Project Room (NYC), w/ James Ilgenfritz on contrabass | 03/25/09 | photo: Lauren Cecil">
-				<img src="../img/photos/thumbs/photo-thumb-4.jpg" /></a></li>
-				<li><a href="../img/photos/3.jpg" data-lightbox="photos" data-title="ED09</em> performance | NYC @ ISSUE Project Room | 04/11/09 | photo: Lauren Cecil">
-				<img src="../img/photos/thumbs/photo-thumb-3.jpg" /></a></li>
-				<li><a href="../img/photos/1.jpg" data-lightbox="photos" data-title="Motorized Music for Electric Guitar | Philly @ Brickbat Books | 07/27/08 | photo: Dan Cohoon">
-				<img src="../img/photos/thumbs/photo-thumb-1.jpg" /></a></li>
-				<li><a href="../img/photos/press/DuanePitre_2015pressphoto-1_credit-Sharon-Pye.jpg" target="_blank">
-				<img src="../img/photos/thumbs/press-thumb-1.jpg" /></a></li>
-				<li><a href="../img/photos/press/DuanePitre_2015pressphoto-2_credit-Sharon-Pye.jpg" target="_blank">
-				<img src="../img/photos/thumbs/press-thumb-2.jpg" /></a></li>
-			</ul>						
-		</article>
-	</main>
-</div>
-<!-- FOOTER INCLUDE -->
-<?php include("../inc/footer.inc") ; ?>
-<!-- ==================== end content ==================== -->  
-
-<!--- jQuery / Video thumbnail states --->
-<script>
-	$(document).ready(function() {
-		var initial = $('.initial-video')
-		initial.find('img').addClass('video-thumb-active');
-		initial.find('p').addClass('video-caption-active');
-		$('.videos li').on('click', function() {
-			$('.video-thumb').removeClass('video-thumb-active');
-			$(this).find('.video-thumb').addClass('video-thumb-active');
-			$('.video-caption').removeClass('video-caption-active')
-			$(this).find('.video-caption').addClass('video-caption-active');
-		});
-	});
-</script>
-</body>
+				</article>
+				<!-- PHOTOS -->	
+				<article class="photos">
+					<h2>Photos</h2>
+					<ul>
+						<li><a href="../img/photos/20.jpg" data-lightbox="photos" data-title="Solo performance | Milan, IT @ O' | 11/9/13 | photo: Michela Di Savino">
+						<img src="../img/photos/thumbs/photo-thumb-20.jpg" /></a></li>
+						<li><a href="../img/photos/19.jpg" data-lightbox="photos" data-title="Solo performance | Atlanta, GA @ The Goat Farm Arts Center | 08/18/13 | photo: Ron Harris">
+						<img src="../img/photos/thumbs/photo-thumb-19.jpg" /></a></li>
+						<li><a href="../img/photos/18.jpg" data-lightbox="photos" data-title="Solo performance | London @ Cafe OTO | 10/17/13 | photo: Daniel Gosling">
+						<img src="../img/photos/thumbs/photo-thumb-18.jpg" /></a></li>
+						<li><a href="../img/photos/17.jpg" data-lightbox="photos" data-title="Solo performance | Bologna, IT @ Raum | 11/8/13 | photo: Luca Ghedini">
+						<img src="../img/photos/thumbs/photo-thumb-17.jpg" /></a></li>
+						<li><a href="../img/photos/16.jpg" data-lightbox="photos" data-title="<em>Feel Free</em> perfrormance | London, UK @ Cafe OTO | 06/14/12 | photo: Shaun Crook">
+						<img src="../img/photos/thumbs/photo-thumb-16.jpg" /></a></li>
+						<li><a href="../img/photos/15.jpg" data-lightbox="photos" data-title="Solo performance | Lyon, FR @ Sonic | 06/23/12 | photo: Hazam Modoff">
+						<img src="../img/photos/thumbs/photo-thumb-15.jpg" /></a></li>
+						<li><a href="../img/photos/14.jpg" data-lightbox="photos" data-title="Duo w/ Agathe Max | Lyon, FR @ Sonic | 06/23/12 | photo: Lauren Cecil">
+						<img src="../img/photos/thumbs/photo-thumb-14.jpg" /></a></li>
+						<li><a href="../img/photos/13.jpg" data-lightbox="photos" data-title="<em>ED09</em> performance | NYC @ The Stone | 02/26/09 | photo: Lauren Cecil">
+						<img src="../img/photos/thumbs/photo-thumb-13.jpg" /></a></li>
+						<li><a href="../img/photos/12.jpg" data-lightbox="photos" data-title="Second residency show @ ISSUE Project Room (NYC), w/ James Ilgenfritz on contrabass | 03/25/09 | photo: Lauren Cecil">
+						<img src="../img/photos/thumbs/photo-thumb-12.jpg" /></a></li>
+						<li><a href="../img/photos/11.jpg" data-lightbox="photos" data-title="Solo performance | NYC @ Monkey Town | 09/18/09 | photo: Lauren Cecil">
+						<img src="../img/photos/thumbs/photo-thumb-11.jpg" /></a></li>
+						<li><a href="../img/photos/10.jpg" data-lightbox="photos" data-title="<em>ED09</em> rehearsal | London, UK @ St. Giles-in-the-Fields Church | 10/25/08 | photo: Lauren Cecil">
+						<img src="../img/photos/thumbs/photo-thumb-10.jpg" /></a></li>
+						<li><a href="../img/photos/9.jpg" data-lightbox="photos" data-title="<em>ED09</em> rehearsal | Paris, FR @ Les Voutes | 10/21/08 | photo: Lauren Cecil">
+						<img src="../img/photos/thumbs/photo-thumb-9.jpg" /></a></li>
+						<li><a href="../img/photos/8.jpg" data-lightbox="photos" data-title="Solo performance | NYC @ Monkey Town | 09/18/09 | photo: Lauren Cecil">
+						<img src="../img/photos/thumbs/photo-thumb-8.jpg" /></a></li>
+						<li><a href="../img/photos/7.jpg" data-lightbox="photos" data-title="Bowed Harmonic Guitar Ensemble performing <em>Origin</em> | NYC @ Phillips de Pury | 09/18/08 | photo: Samuel Burns">
+						<img src="../img/photos/thumbs/photo-thumb-7.jpg" /></a></li>
+						<li><a href="../img/photos/6.jpg" data-lightbox="photos" data-title="Bowed Harmonic Guitar Ensemble performing <em>Origin</em> | NYC @ Phillips de Pury | 09/18/08 | photo: Samuel Burns">
+						<img src="../img/photos/thumbs/photo-thumb-6.jpg" /></a></li>
+						<li><a href="../img/photos/4.jpg" data-lightbox="photos" data-title="Second residency show @ ISSUE Project Room (NYC), w/ James Ilgenfritz on contrabass | 03/25/09 | photo: Lauren Cecil">
+						<img src="../img/photos/thumbs/photo-thumb-4.jpg" /></a></li>
+						<li><a href="../img/photos/3.jpg" data-lightbox="photos" data-title="ED09</em> performance | NYC @ ISSUE Project Room | 04/11/09 | photo: Lauren Cecil">
+						<img src="../img/photos/thumbs/photo-thumb-3.jpg" /></a></li>
+						<li><a href="../img/photos/1.jpg" data-lightbox="photos" data-title="Motorized Music for Electric Guitar | Philly @ Brickbat Books | 07/27/08 | photo: Dan Cohoon">
+						<img src="../img/photos/thumbs/photo-thumb-1.jpg" /></a></li>
+						<li><a href="../img/photos/press/DuanePitre_2015pressphoto-1_credit-Sharon-Pye.jpg" target="_blank">
+						<img src="../img/photos/thumbs/press-thumb-1.jpg" /></a></li>
+						<li><a href="../img/photos/press/DuanePitre_2015pressphoto-2_credit-Sharon-Pye.jpg" target="_blank">
+						<img src="../img/photos/thumbs/press-thumb-2.jpg" /></a></li>
+					</ul>						
+				</article>
+			</main>
+		</div>
+		<!-- FOOTER INCLUDE -->
+		<?php include("../inc/footer.inc") ; ?>
+		<!-- ==================== end content ==================== -->  
+		<!--- jQuery / Video thumbnail states --->
+		<script>
+			$(document).ready(function() {
+				var initial = $('.initial-video')
+				initial.find('img').addClass('video-thumb-active');
+				initial.find('p').addClass('video-caption-active');
+				$('.videos li').on('click', function() {
+					$('.video-thumb').removeClass('video-thumb-active');
+					$(this).find('.video-thumb').addClass('video-thumb-active');
+					$('.video-caption').removeClass('video-caption-active')
+					$(this).find('.video-caption').addClass('video-caption-active');
+				});
+			});
+		</script>
+	</body>
 </html>
