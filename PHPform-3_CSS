@@ -1,0 +1,89 @@
+#main {
+	width: 90%;
+	margin-bottom: 50px;
+}
+#level2_content {
+	background: white;
+}
+#request input {
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 12px;
+	padding: 10px;
+	border: 1px solid #444;
+}
+#request input[type=radio], #request input[type=checkbox] {
+	margin-bottom: 5px;
+}
+#request input[type=text], #request input[type=tel], #request input[type=email] {
+	width: 100%;
+	font-size: 13px;
+}
+#request input[type=date], #request input[type=time] {
+	width: 25%;
+}
+#request input[type=checkbox], #request input[type=radio], #request input[type=date], #request input[type=time] {
+	display: inline;
+}
+#request input[type=checkbox] {
+	margin-left: 3px;
+	margin-right: 5px;
+}
+fieldset {
+	width: 100%;
+	margin-bottom: 12px;
+	margin-left: 0;
+	font-size: 13px;
+	background: #f8f8f8;
+	border: 1px solid #7d7d7d;
+}
+legend {
+	font-weight: bold;
+}
+fieldset em {
+	display: block;
+	font-size: 10px;
+	line-height: 16px;
+	color: #555;
+}
+fieldset p {
+	margin: 10px 0 5px;
+}
+fieldset p.start {
+	margin-top: 0;
+	font-size: 11px;
+}
+#special_equip p.start {
+	font-style: italic;
+}
+#recording p.start {
+	line-height: 16px;
+}
+#special_equip input[type="text"], #recording input[type="text"] {
+	display: inline;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 5px 10px;
+	font-size: 12px;
+	width: 50%;
+}
+#request input[type=checkbox]:first-of-type, #request #standard_equip input[type=checkbox], #request #special_equip input[type=checkbox] {
+	margin-left: 0;
+}
+#request input[name="numdvd"] {
+	width: 45px;
+}
+#request input[name="description"] {
+	width: 65%;
+}
+#request input[type="submit"], #request input[type="reset"] {
+	cursor: pointer;
+	display: inline-block;
+	margin-right: 10px;
+}
+#request blockquote {
+	margin: 5px 35px 0;
+}
+#request .allsemester {
+	margin-top: 0;
+}
