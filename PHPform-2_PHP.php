@@ -24,15 +24,15 @@
 	if(strlen($error_message) > 0) {
 	  died($error_message);
 	}
- 
-	// Email test formatting
+// Email test formatting
   $email_message = "Form details below...\n\n";
  
-  function clean_string($string) {
-    $bad = array("content-type","bcc:","to:","cc:","href");
-    return str_replace($bad,"",$string);
-  }
-  if(!empty($_POST['fullname'])) {
+function clean_string($string) {
+      $bad = array("content-type","bcc:","to:","cc:","href");
+      return str_replace($bad,"",$string);
+    }
+ 
+    if(!empty($_POST['fullname'])) {
 		$email_message .= "Name: ".clean_string($_POST['fullname'])."\n";
 	}
     if(!empty($_POST['email'])) {
@@ -46,12 +46,6 @@
 	}
 	if(!empty($_POST['by'])) {
 		$email_message .= "Requested by: ".clean_string($_POST['by'])."\n";
-	}
-	if(!empty($_POST['signature'])) {
-		$email_message .= "Approval Signature: ".clean_string($_POST['signature'])."\n";
-	}
-	if(!empty($_POST['signee'])) {
-		$email_message .= "Print Name of Signee: ".clean_string($_POST['signee'])."\n";
 	}
 	if(!empty($_POST['type'])) {
 		$email_message .= "This request is for a(n): ".clean_string($_POST['type'])."\n";
@@ -70,71 +64,39 @@
 	}
 	if(!empty($_POST['recurring'])) {
 		if ($_POST['recurring'] == 'Yes') {
-			$email_message .= "Is Event Recurring?: ".clean_string($_POST['recurring'])."  /  ";
-			$email_message .= "All Semester?: ".clean_string($_POST['all'])."\n";
+			$email_message .= "Is Event Recurring? ".clean_string($_POST['recurring'])."  /  ";
+			$email_message .= "All Semester? ".clean_string($_POST['all'])."\n";
 		} else {
-			$email_message .= "Is Event Recurring?: No \n";	
+			$email_message .= "Is Event Recurring? No \n";	
 		}
 	}
 	if(!empty($_POST['day'])) {
 		$days = $_POST['day'];
-		$email_message .= "Day(s) of the Week: ";
-		$x = 0;
-		while ($x < count($days)) {
-			if ($days > 1 && $x < count($days) - 1) {
-				$spacer_post = ", ";
-			} else {
-				$spacer_post = null;
-			}
-			$email_message .= $days[$x].$spacer_post;
-			$x++;
-		}
-		$email_message .= "\n";
+		$email_message .= "Day(s) of the Week: ".implode(", ", $days)."\n";
 	}
 	if(!empty($_POST['standard_equip'])) {
-		$standard_equip = $_POST['standard_equip'];
-		$email_message .= "Standard Room Equipment: ";
-		$x = 0;
-		while ($x < count($standard_equip)) {
-			if ($standard_equip > 1 && $x < count($standard_equip) - 1) {
-				$spacer_post = ", ";
-			} else {
-				$spacer_post = null;
-			}
-			$email_message .= $standard_equip[$x].$spacer_post;
-			$x++;
-		}
-		$email_message .= "\n";
+		$standard_equip = $_POST['standard_equip']; // via standard_equip[] array in form
+		$email_message .= "Standard Room Equipment: ".implode(", ", $standard_equip)."\n";
 	}
 	if (!empty($_POST['special_equip']) || !empty($_POST['special_equip_lapelmics']) || !empty($_POST['special_equip_handmics']) || !empty($_POST['special_equip_other'])) {
 		
 		$email_message .= "Special Equipment: ";
 		
 		if(!empty($_POST['special_equip'])) {
-			$special_equip = $_POST['special_equip'];
-			
-			$x = 0;
-			while ($x < count($special_equip)) {
-				if ($special_equip > 1 && $x < count($special_equip) - 1) {
-					$spacer_post = ", ";
-				} else {
-					$spacer_post = null;
-				}
-				$email_message .= $special_equip[$x].$spacer_post;
-				$x++;
-			}
-			$spacer_pre = ", ";
-		} else {
+			$special_equip = $_POST['special_equip']; // via special_equip[] array in form
+			$email_message .= implode(", ", $special_equip);
+			$spacer_pre = ", ";  
+		}  else {
 			$spacer_pre = null;
-		}
+		} 
 		if(!empty($_POST['special_equip_lapelmics'])) {
 			$email_message .= $spacer_pre.clean_string($_POST['special_equip_lapelmics'])." Extra Lapel Mics";
 		}
 		if(!empty($_POST['special_equip_handmics'])) {
-			$email_message .= $spacer_pre.clean_string($_POST['special_equip_handmics'])." Extra Hand Mics";
+			$email_message .= ", ".clean_string($_POST['special_equip_handmics'])." Extra Hand Mics";
 		}
 		if(!empty($_POST['special_equip_other'])) {
-			$email_message .= $spacer_pre.clean_string($_POST['special_equip_other']);
+			$email_message .= ", ".clean_string($_POST['special_equip_other']);
 		}	
 		$email_message .= "\n";
 	}
@@ -149,15 +111,15 @@
 				$x = 0;
 				while ($x < count($format)) {
 					if ($format > 1 && $x < count($format) - 1) {
-						$spacer_post = ", ";
+						$separator = ", ";
 					} else {
-						$spacer_post = null;
+						$separator = null;
 					}
 					$email_message .= $format[$x];
 					if($format[$x] == "DVD" && !empty($_POST['numdvd'])) {
 						$email_message .= " (".clean_string($_POST['numdvd']).")";
 					}
-					$email_message .= $spacer_post;
+					$email_message .= $separator;
 					$x++;
 				}
 			}	
@@ -168,12 +130,15 @@
 			}
 		}
 	}		
-	// create email headers
-	$headers = 'From: '.$email_from."\r\n".
-	'Reply-To: '.$email_from."\r\n" .
-	'X-Mailer: PHP/' . phpversion();
-	@mail($email_to, $email_subject, $email_message, $headers);  
-?> 
+   
+// create email headers
+ 
+$headers = 'From: '.$email_from."\r\n".
+'Reply-To: '.$email_from."\r\n" .
+'X-Mailer: PHP/' . phpversion();
+@mail($email_to, $email_subject, $email_message, $headers);  
+
+?>
 <!-- include success html here -->
 <!DOCTYPE html>
 	<head>
