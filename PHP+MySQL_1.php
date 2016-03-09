@@ -24,7 +24,7 @@ $result = mysqli_query($conn, $query);
 
 if (mysqli_num_rows($result) != 0) {
 	while ($row = mysqli_fetch_assoc($result)) {
-    	echo $row["imgsrc"];
+    		echo $row["imgsrc"];
 		echo $row["first_name"];
    		echo $row["last_name"]."</b><br>\n";
    		echo $row["tulane_email"];
