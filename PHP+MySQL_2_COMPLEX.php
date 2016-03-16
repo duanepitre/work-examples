@@ -101,7 +101,7 @@
 	include "includes/headernav.php";
 	include "includes/faculty-sidenav.php";
  ?>	
-	<div class="main">
+	<main>
 		<div class="intro">
 			<h3>Contributions &amp; Interests Update</h3>
 		</div>
@@ -163,7 +163,7 @@
 				</p>
 			</div>
 		</div>
-	</div>
+	</main>
 	
 	</div> <!-- closing div from header -->
 	</div> <!-- find what opening div this belongs to	as well ... seems the structure of some of these pages is a bit chaotic ... these closing divs are necessary for the footer to act correctly -->	
