@@ -11,7 +11,7 @@
 		$x = 0;
 		while ($x < count($imgs_to_be_deleted)) {
 			// Delete img from Freeman server ... which it currently does not allow. Just leaving this here...
- 		 /* $query_get_path = "SELECT ".$imgs_to_be_deleted[$x]." FROM faculty_staff WHERE Email='".$_POST["emailid"]."'";
+ 		 	/* $query_get_path = "SELECT ".$imgs_to_be_deleted[$x]." FROM faculty_staff WHERE Email='".$_POST["emailid"]."'";
 			$path = mysqli_query($conn,$query_get_path);
 			$row = mysqli_fetch_assoc($path);
 			unlink($row[$imgs_to_be_deleted[$x]]); */ 
@@ -61,18 +61,17 @@
 			$tulaneusername = $_POST["emailid"];
 			$new_file_name = $tulaneusername."_".$input_name."_img".$ext;
 			
-			// Check if the filetype is allowed, if not DIE and inform the user.
+			// Check if the filetype is allowed.
 			if (!in_array($ext,$allowed_filetypes)) {
 				echo "The file you attempted to upload is not allowed.";
 			} 
 		 
-			// Now check the filesize, if it is too large then DIE and inform the user.
-			/* if (filesize($user_uploaded_files[$x]['tmp_name']) > $max_filesize) { */
+			// Now check the filesize.
 			if (filesize($user_uploaded_files[$x]['tmp_name']) > $max_filesize) {
 				echo "The file you attempted to upload is too large.";
 			}
 
-			// Check if we can upload to the specified path, if not DIE and inform the user.
+			// Check if we can upload to the specified path.
 			if (!is_writable($upload_path)) {
 				echo "You cannot upload to the specified directory.";
 			}
@@ -84,7 +83,6 @@
 			} else {
 				echo 'There was an error during the file upload.  Please try again.'; // It failed :(.
 			}
-
 		}	
 		$x++;
 	}    
@@ -100,18 +98,14 @@
 	$row = mysqli_fetch_assoc($result);
 	
 // HTML -----------------------------------
-
 	include "includes/headernav.php";
 	include "includes/faculty-sidenav.php";
  ?>	
- 
 	<div class="main">
 		<div class="intro">
 			<h3>Contributions &amp; Interests Update</h3>
 		</div>
-	
 		<div class="category-col">
-		
 			<div class="category">
 				<h4>Contribution 1</h4>
 				<p><?php echo $row["contribution1"]; ?><br />
@@ -121,7 +115,6 @@
 				<?php } ?> 
 				</p>
 			</div>
-		
 			<div class="category">
 				<h4>Contribution 2</h4>
 				<p><?php echo $row["contribution2"]; ?><br />
@@ -131,7 +124,6 @@
 				<?php } ?> 
 				</p>
 			</div>
-		
 			<div class="category">
 				<h4>Contribution 3</h4>
 				<p><?php echo $row["contribution3"]; ?><br />
@@ -141,11 +133,8 @@
 				<?php } ?> 
 				</p>
 			</div> 
-			
 		</div>
-				
 		<div class="category-col">
-		
 			<div class="category">
 				<h4>Interest 1</h4>
 				<p><?php echo $row["interest1"]; ?><br />
@@ -155,7 +144,6 @@
 				<?php } ?> 
 				</p>
 			</div>
-			
 			<div class="category">
 				<h4>Interest 2</h4>
 				<p><?php echo $row["interest2"]; ?><br />
@@ -165,7 +153,6 @@
 				<?php } ?> 
 				</p>
 			</div>
-			
 			<div class="category">
 				<h4>Interest 3</h4>
 				<p><?php echo $row["interest3"]; ?><br />
@@ -175,9 +162,7 @@
 				<?php } ?> 
 				</p>
 			</div>
-			
 		</div>
-					
 	</div>
 	
 	</div> <!-- closing div from header -->
