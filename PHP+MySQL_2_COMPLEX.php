@@ -11,10 +11,10 @@
 		$x = 0;
 		while ($x < count($imgs_to_be_deleted)) {
 			// Delete img from Freeman server ... which it currently does not allow. Just leaving this here...
- 		 	/* $query_get_path = "SELECT ".$imgs_to_be_deleted[$x]." FROM faculty_staff WHERE Email='".$_POST["emailid"]."'";
+ 		 	$query_get_path = "SELECT ".$imgs_to_be_deleted[$x]." FROM faculty_staff WHERE Email='".$_POST["emailid"]."'";
 			$path = mysqli_query($conn,$query_get_path);
 			$row = mysqli_fetch_assoc($path);
-			unlink($row[$imgs_to_be_deleted[$x]]); */ 
+			unlink($row[$imgs_to_be_deleted[$x]]); 
 			
 			// Delete img path from DB
 			$query_delete_path = "UPDATE faculty_staff SET ".$imgs_to_be_deleted[$x]." = NULL WHERE Email='".$_POST["emailid"]."'";
@@ -71,11 +71,6 @@
 				echo "The file you attempted to upload is too large.";
 			}
 
-			// Check if we can upload to the specified path.
-			if (!is_writable($upload_path)) {
-				echo "You cannot upload to the specified directory.";
-			}
-
 			// Upload the file to your specified path.
 			if (move_uploaded_file($user_uploaded_files[$x]['tmp_name'],$upload_path . $new_file_name)) {
 				$query = "UPDATE faculty_staff SET ".$input_name."_img='" . "http://business.tulane.edu/faculty/images/user-uploads/" . $new_file_name. "' WHERE Email='".$_POST["emailid"]."'";
@@ -97,10 +92,8 @@
 	$result = mysqli_query($conn,$query2);
 	$row = mysqli_fetch_assoc($result);
 	
-// HTML -----------------------------------
-	include "includes/headernav.php";
-	include "includes/faculty-sidenav.php";
  ?>	
+ // HTML -----------------------------------
 	<main>
 		<div class="intro">
 			<h3>Contributions &amp; Interests Update</h3>
@@ -164,8 +157,3 @@
 			</div>
 		</div>
 	</main>
-	
-	</div> <!-- closing div from header -->
-	</div> <!-- find what opening div this belongs to	as well ... seems the structure of some of these pages is a bit chaotic ... these closing divs are necessary for the footer to act correctly -->	
-	
-	<?php include "includes/footer_new.inc"; ?>
