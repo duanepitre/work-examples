@@ -2,7 +2,7 @@
 	include "includes/header.inc"; 
 	include "includes/config-fac.inc"; // connect to db
 	
-	// define area variables for SQL queries ... $_GET is passed via secondary nav links
+	// define Faculty Area variables for SQL queries ... $_GET array is passed via secondary nav links
 	$area1 = $_GET["area"];
 	$area2 = $_GET["area"];	
 	$area3 = $_GET["area"];
