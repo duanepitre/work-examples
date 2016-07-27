@@ -24,7 +24,7 @@
 		$area_listing = NULL;
 	}
 	
-	// SQL queries to populate area listings
+	// SQL queries to populate fac position sub-sections in listing
 	$query_tenure = "
 	SELECT main_img, Fname, Lname, NickName, recordid 
 	FROM faculty_staff 
